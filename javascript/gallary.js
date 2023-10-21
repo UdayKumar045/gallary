@@ -1,7 +1,7 @@
 // Gallary Images Code
 var allImg=document.images;
 function allImgTags(){
-    for(i=0;i<=allImg.length;i++){
+    for(i=0;i<allImg.length;i++){
         allImg[i].src=`./Asset/${i}.jpg`
         allImg[i].style.width="200px"
         allImg[i].style.height="180px"
